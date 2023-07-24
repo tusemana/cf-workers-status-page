@@ -22,18 +22,26 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    #linkable: false
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: pagina-registro
+    name: registro.tusemana.com
+    description: 'Página de registro para nuevos clientes.'
+    url: 'https://registro.tusemana.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: servidor-1
+    name: Servidor 1
+    url: 'https://fernandodilland.com/'
     method: GET
     expectStatus: 200
+    linkable: false
+
+  - id: servidor-2
+    name: Servidor 2
+    url: 'https://niqera.com/'
+    method: GET
+    expectStatus: 200
+    linkable: false
