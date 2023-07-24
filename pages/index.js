@@ -113,3 +113,4 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
     </div>
   )
 }
+
