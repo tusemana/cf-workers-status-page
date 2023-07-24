@@ -103,7 +103,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
           <div>
             <a
               href="https://tusemana.com/"
-              target="_blank"
+              target="_self"
             >
               Regresar a TuSemana CRM
             </a>

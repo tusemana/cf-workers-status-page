@@ -5,14 +5,14 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  allmonitorsOperational: 'Todos los servidores de TuSemana están operando correctamente'
+  notAllmonitorsOperational: 'Se identifica un error, se está investigando'
+  monitorLabelOperational: 'Operando'
+  monitorLabelNotOperational: 'Sin operar'
+  monitorLabelNoData: 'Sin datos'
+  dayInHistogramNoData: 'Sin datos'
+  dayInHistogramOperational: 'Todo en orden'
+  dayInHistogramNotOperational: ' incidente(s)' # xx incident(s) recorded
 
 monitors:
   - id: workers-cloudflare-com # unique identifier
