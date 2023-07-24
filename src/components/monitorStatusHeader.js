@@ -24,7 +24,7 @@ export default function MonitorStatusHeader({ kvMonitorsLastUpdate }) {
         {kvMonitorsLastUpdate.time && typeof window !== 'undefined' && (
           <div className="text-xs font-light">
             revisado{' '}
-            {Math.round((Date.now() - kvMonitorsLastUpdate.time) / 1000)} segundos atrás (from{' '}
+            {Math.round((Date.now() - kvMonitorsLastUpdate.time) / 1000)} segundos atrás (del{' '}
             {locations[kvMonitorsLastUpdate.loc] || kvMonitorsLastUpdate.loc})
           </div>
         )}
